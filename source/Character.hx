@@ -498,6 +498,31 @@ class Character extends FlxSprite
 				addOffset("singDOWN-alt", -30, -27);
 
 				playAnim('idle');
+
+			case 'banjoei':
+				frames = Paths.getSparrowAtlas('Universe/furry_yiff');
+				animation.addByPrefix('idle', "Banjo Idle Dance", 24);
+				animation.addByPrefix('singUP', 'banjo Up note0', 24, false);
+				animation.addByPrefix('singDOWN', 'Banjo Down Note0', 24, false);
+				if (isPlayer)
+				{
+					animation.addByPrefix('singLEFT', 'Banjo NOTE LEFT0', 24, false);
+					animation.addByPrefix('singRIGHT', 'Banjo Note Right0', 24, false);
+				}
+				else
+				{
+					// Need to be flipped! REDO THIS LATER!
+					animation.addByPrefix('singLEFT', 'Banjo Note Right0', 24, false);
+					animation.addByPrefix('singRIGHT', 'Banjo NOTE LEFT0', 24, false);
+				}
+
+				addOffset('idle');
+				addOffset("singUP", 30, 23);
+				addOffset("singRIGHT", -54, -11);
+				addOffset("singLEFT", 53, 4);
+				addOffset("singDOWN", -20, -83);
+
+				playAnim('idle');
 		}
 
 		dance();
