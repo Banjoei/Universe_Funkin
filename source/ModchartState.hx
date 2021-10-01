@@ -44,7 +44,7 @@ class ModchartState
 		{
 			if (p != null)
 				{
-					Application.current.window.alert("LUA ERROR:\n" + p + "\nhaxe things: " + e,"Kade Engine Modcharts");
+					Application.current.window.alert("LUA ERROR:\n" + p + "\nhaxe things: " + e,"The Universe Funkin' Modcharts");
 					lua = null;
 					LoadingState.loadAndSwitchState(new MainMenuState());
 				}
@@ -349,7 +349,7 @@ class ModchartState
 	
 				if (result != 0)
 				{
-					Application.current.window.alert("LUA COMPILE ERROR:\n" + Lua.tostring(lua,result),"Kade Engine Modcharts");
+					Application.current.window.alert("LUA COMPILE ERROR:\n" + Lua.tostring(lua,result),"The Universe Funkin' Modcharts");
 					lua = null;
 					LoadingState.loadAndSwitchState(new MainMenuState());
 				}
