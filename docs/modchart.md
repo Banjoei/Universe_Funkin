@@ -1,6 +1,6 @@
 # Lua Modcharts
 
-In the 1.4.2 release of Kade Engine, we introduced Mod Charts. Mod Charts are a way of changing gameplay without hard coded values. This is achieved by using the Lua Scripting language to create script files that run during runtime.
+In the 1.4.2 release of The Universe Funkin', we introduced Mod Charts. Mod Charts are a way of changing gameplay without hard coded values. This is achieved by using the Lua Scripting language to create script files that run during runtime.
 
 Song data is located in `assets/data/<song>/`, so the Lua file containing your scripts should be located at exactly `assets/data/<song>/modchart.lua`. (replace <song> with the name of the song. for example, `assets/data/milf/` for milf)
 
@@ -126,7 +126,7 @@ Current calls to functions include,
 
 ### Global Variables
 
-Kade Engine provides a list of global variables to be used in the lua scripting interface.
+The Universe Funkin' provides a list of global variables to be used in the lua scripting interface.
 
 |        G Name        | Type  |                         Description                          |
 | :------------------: | :---: | :----------------------------------------------------------: |
@@ -153,7 +153,7 @@ Kade Engine provides a list of global variables to be used in the lua scripting 
 
 ## Functions
 
-Kade Engine exposes a lot of functions that let you modify elements in the game field.
+The Universe Funkin' exposes a lot of functions that let you modify elements in the game field.
 
 
 

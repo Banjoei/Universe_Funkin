@@ -7,12 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.4.2]
 ### Changed
 - Trails on notes are more consistent
-- Title now shows "Friday Night Funkin' Kade Engine"
-- **THIS UPDATE WILL RESET YOUR SAVE FOR KADE ENGINE**, so you gotta redo all of ur settings.
+- Title now shows "Friday Night Funkin' The Universe Funkin'"
+- **THIS UPDATE WILL RESET YOUR SAVE FOR The Universe Funkin'**, so you gotta redo all of ur settings.
 
 ### Added
 - Lua Modchart support [(documentation located here)](https://github.com/KadeDev/Kade-Engine/blob/master/ModCharts.md)
-- New option called watermarks which removes all watermarks from Kade Engine
+- New option called watermarks which removes all watermarks from The Universe Funkin'
 - Chart spesfic offsets
 
 ## [1.4.1]
@@ -105,7 +105,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Song Progress bar no longer clips into the strumline on upscroll on non-pixel charts.
 - Deleting notes now works
-- Kade Engine Watermark not showing on all charts.
+- The Universe Funkin' Watermark not showing on all charts.
 
 ## [1.2.2]
 ### Added
